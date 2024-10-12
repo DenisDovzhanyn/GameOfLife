@@ -1,21 +1,14 @@
-# Gameoflife
+# Game of Life in Elixir
 
-**TODO: Add description**
+This project is an implementation of Conway's Game of Life using Elixir, built to understand the basics of the language.
 
-## Installation
+## Overview
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `gameoflife` to your list of dependencies in `mix.exs`:
+The Game of Life simulates the evolution of a grid of cells, where each cell can be alive or dead. The initial state has all cells alive, and their status changes based on the number of live neighbors according to the game’s rules.
 
-```elixir
-def deps do
-  [
-    {:gameoflife, "~> 0.1.0"}
-  ]
-end
-```
+### Features
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/gameoflife>.
-
+- **Functional Elixir**: Leverages Elixir’s functional programming style.
+- **Custom Game Logic**: Determines the state of each cell using neighbor counts.
+- **Console Display**: Outputs the game board in the console, with live cells as "O" and dead cells as "X."
+- **Recursive Gameplay**: The game runs in an infinite loop, updating the board continuously.
